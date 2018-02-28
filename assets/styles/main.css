@@ -1,3 +1,63 @@
 body {
-  color: blue;
+font-family: 'Signika', sans-serif;
+color: rgba(81, 25, 0, 1);
+}
+/*
+h1 {
+  font-family: 'Ceviche One', cursive;
+} */
+
+#landing {
+ height: 1000px;
+ background-color: rgba(239, 207, 182, 1);
+ background-image: url(../images/backdrops/mariano-rossi-330641-unsplash.jpg);
+ background-position: center center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ border-bottom: 20px solid rgba(81, 25, 0, 1);
+}
+
+#logo {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgba(239, 207, 182, 1);
+}
+
+#logo h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+/* BELOW THE FOLD */
+#splash {
+  background-color: rgba(239, 207, 182, 1);
+}
+
+#splash > div {
+  padding-top: 150px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#splash img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#splash .info {
+  margin: 0 auto;
+  text-align: justify;
+  width: 100%;
+}
+
+#splash p {
+  font-size: 2.5em;
+  width: 78%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3.5em;
+  text-align: center;
 }

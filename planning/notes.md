@@ -3,9 +3,9 @@ No. 1 Chinese Food Restaurant
 #Requirements:
 ##Tier 1
 - Hours
+- Phone number (contact)
 - Locations
     - address + map
-- Phone number (contact)
 - Menu
 - About Us
 
