@@ -1,20 +1,23 @@
 body {
-font-family: 'Signika', sans-serif;
-color: rgba(81, 25, 0, 1);
+  margin: 0;
+  padding: 0;
+  font-family: 'Signika', sans-serif;
+  color: rgba(81, 25, 0, 1);
 }
+
 /*
 h1 {
   font-family: 'Ceviche One', cursive;
 } */
 
 #landing {
- height: 1000px;
- background-color: rgba(239, 207, 182, 1);
- background-image: url(../images/backdrops/mariano-rossi-330641-unsplash.jpg);
- background-position: center center;
- background-size: cover;
- background-repeat: no-repeat;
- border-bottom: 20px solid rgba(81, 25, 0, 1);
+  height: 1000px;
+  background-color: rgba(239, 207, 182, 1);
+  background-image: url(../images/backdrops/mariano-rossi-330641-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 20px solid rgba(81, 25, 0, 1);
 }
 
 #logo {
@@ -24,16 +27,18 @@ h1 {
 }
 
 #logo h1 {
+  margin-top: 0;
   font-size: 5em;
   text-align: center;
 }
 
 /* BELOW THE FOLD */
+
 #splash {
   background-color: rgba(239, 207, 182, 1);
 }
 
-#splash > div {
+#splash>div {
   padding-top: 150px;
   width: 70%;
   margin: 0 auto;
