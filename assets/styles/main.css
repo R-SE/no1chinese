@@ -47,6 +47,8 @@ h1 {
 #splash img {
   max-width: 100%;
   max-height: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 #splash .info {
