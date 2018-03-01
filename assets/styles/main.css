@@ -1,3 +1,8 @@
+.hidden {
+  visibility: hidden;
+  z-index: -1;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,8 +22,25 @@ h2 {
 
 nav {
   position: fixed;
-  top: 0;
+  top: 7%;
+  display: block;
+  left: 0;
   right: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+nav li {
+  list-style: none;
+  font-size: 3em;
+  display: inline;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
 }
 
 #landing {
@@ -32,8 +54,8 @@ nav {
 }
 
 #logo {
-  width: 50%;
-  margin: 0 auto;
+  width: 56%;
+  /* margin: 0 auto; */
   padding: 15px;
   padding-bottom: 0;
   background-color: rgba(239, 207, 182, 0.75);
@@ -47,6 +69,7 @@ nav {
 }
 
 #tagline h1 {
+  padding-top: 100px;
   color: rgba(239, 207, 182, 1);
   font-family: 'Kaushan Script', cursive;
   font-size: 8em;
@@ -54,7 +77,8 @@ nav {
   width: 70%;
   margin: 0 auto;
   -webkit-filter: drop-shadow(5px 5px 5px #222 );
-  filter: drop-shadow(5px 5px 5px rgba(81, 25, 0, 1));
+  filter: drop-shadow(2px 2px 3px rgba(175, 39, 36, 1););
+  filter: drop-shadow(5px 5px 10px rgba(81, 25, 0, 1));
 }
 
 /* BELOW THE FOLD */
